@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-01T11:44:29.732-00:00",
+	"CreationDate" : "2024-12-01T11:46:13.455-00:00",
 	"Sources" : 
 	[
 		{
@@ -137,6 +137,9 @@
 				},
 				{
 					"PackageIdentifier" : "WhirlwindFX.SignalRgb"
+				},
+				{
+					"PackageIdentifier" : "Balena.Etcher"
 				},
 				{
 					"PackageIdentifier" : "Obsidian.Obsidian"
