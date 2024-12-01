@@ -4,6 +4,9 @@ $currentDirectory = Get-Location
 # Define the output file name with a fixed name (it will be overwritten each time)
 $outputFile = "winget_packages.json"
 
+# Export installed packages via winget to the JSON file (overwrites the file every time)
+winget export -o "$currentDirectory\$outputFile"
+
 # Check if git is initialized in the current directory
 if (-not (Test-Path -Path "$currentDirectory\.git")) {
     Write-Host "Git repository not found in the current directory. Exiting script."
@@ -14,16 +17,12 @@ if (-not (Test-Path -Path "$currentDirectory\.git")) {
 Set-Location -Path $currentDirectory
 
 # Check if there are differences between the current file and the one in the main branch
-$changes = git status --porcelain | findstr "winget_packages"
+$changes = git diff -I"CreationDate" .\winget_packages.json
 
 # Compare the hashes to see if the file has changed
 if (-not $changes) {
     Write-Host "No changes detected in '$outputFile'. Skipping commit and push."
 } else {
-
-    # Export installed packages via winget to the JSON file (overwrites the file every time)
-    winget export -o "$currentDirectory\$outputFile"
-
     # Stage the changes (add the exported JSON file)
     git add "$currentDirectory\$outputFile"
 
