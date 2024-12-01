@@ -1,4 +1,4 @@
-# Dotfiles for Windowss
+# Dotfiles for Windows
 
 This repository contains some configs from my Windows setup for the purpose of simplifying a fresh install.
 
