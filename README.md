@@ -15,8 +15,8 @@ To clone this repository:
 2. Open a new terminal session and run:
 
     ```powershell
-    git config --global user.email "sebastian@kleboth.de"
-    git config --global user.name "codeeno"
+    git config --global user.email "<email>"
+    git config --global user.name "<username>"
     ```
 3. (Optional) If not already present, create a directory for Git projects. *This needs to be done with the terminal opened as an administrator*:
 
