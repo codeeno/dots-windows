@@ -60,6 +60,15 @@ winget upgrade 'Dev Home'
 winget upgrade --all
 ```
 
+### Automatically exporting packages as a scheduled task
+
+This repository also includes a script which creates a task in the Windows Task Scheduler to periodically run the script which exports the current packages to a file. To set it up:
+
+```powershell
+cd C:\Projects\dots-windows
+powershell -ExecutionPolicy Bypass -File .\packages\schedule_task_update_packages_json.ps1
+```
+
 ## Custom keyboard layouts
 
 ### Layouts
@@ -76,3 +85,7 @@ The layouts were created using [Microsoft Keyboard Layout Creator](https://msklc
 4. Run the newly created `setup.exe` to install the layout
 
 The layout can then be added to the language options in the Windows settings.
+
+## TODO
+* Make the scheduled task script not flash a command line window to the user when it runs. This can be done by wrapping it in a `cmd` call. See: https://stackoverflow.com/a/67300159
+* Make the scheduled task produce a log file. This has kind of worked before, also using `cmd`. See: https://superuser.com/a/1622540
