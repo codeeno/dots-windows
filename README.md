@@ -18,7 +18,7 @@ To clone this repository:
     git config --global user.email "<email>"
     git config --global user.name "<username>"
     ```
-3. (Optional) If not already present, create a directory for Git projects. *This needs to be done with the terminal opened as an administrator*:
+3. (Optional) If not already present, create a directory for Git projects. *If done via the below command, this needs to be done with the terminal opened as an administrator*:
 
     ```powershell
     New-Item C:\Projects
