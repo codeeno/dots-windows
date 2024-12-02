@@ -1,8 +1,9 @@
-$taskName = "RunWingetExport"
 $currentDirectory = Get-Location
-$scriptPath = "$currentDirectory\update_packages_json.ps1"
-$workingDirectory = "C:\Projects\dots-windows\"
+$scriptName = "update_packages_json.ps1"
+$workingDirectory = "$currentDirectory\packages"
+$scriptPath = "$workingDirectory\$scriptName"
 
+$taskName = "RunWingetExport"
 $triggerTime = "03:00"
 
 $action = New-ScheduledTaskAction -WorkingDirectory $workingDirectory -Execute "powershell.exe" -Argument "-ExecutionPolicy Bypass -WindowStyle hidden -File $scriptPath"
