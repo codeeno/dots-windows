@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-02T20:57:04.514-00:00",
+	"CreationDate" : "2024-12-03T18:40:02.284-00:00",
 	"Sources" : 
 	[
 		{
@@ -79,6 +79,9 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
+				},
+				{
 					"PackageIdentifier" : "Rem0o.FanControl"
 				},
 				{
@@ -104,9 +107,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.6"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
