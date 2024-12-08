@@ -1,0 +1,769 @@
+{
+  "__VERSION__": "209",
+  "Main": {
+    "Controls": [
+      {
+        "Calibration": [
+          [
+            0,
+            408
+          ],
+          [
+            10,
+            418
+          ],
+          [
+            20,
+            626
+          ],
+          [
+            30,
+            813
+          ],
+          [
+            40,
+            986
+          ],
+          [
+            50,
+            1137
+          ],
+          [
+            60,
+            1280
+          ],
+          [
+            70,
+            1414
+          ],
+          [
+            80,
+            1531
+          ],
+          [
+            90,
+            1645
+          ],
+          [
+            100,
+            1753
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/it8696e/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 20,
+        "MinimumPercent": 0,
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan - PUSH",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8696e/fan/0",
+          "IsHidden": false,
+          "Name": "CPU Fan",
+          "NickName": "CPU Fan"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IgnoreHysteresisAtLimits": true,
+          "IsHidden": false,
+          "MaximumCommand": 100,
+          "MaximumTemperature": 120.0,
+          "MinimumTemperature": 20.0,
+          "Name": "CPU Fans",
+          "OneWayHysteresis": false,
+          "Points": [
+            "60.020088515019296,20",
+            "75.08647477949715,50",
+            "85,100"
+          ],
+          "SelectedHysteresis": 2.0,
+          "SelectedResponseTime": 1,
+          "SelectedTempSource": {
+            "Identifier": "/amdcpu/0/temperature/2",
+            "IsHidden": false,
+            "Name": "Core (Tctl/Tdie)",
+            "NickName": "Core (Tctl/Tdie)"
+          }
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            1120
+          ],
+          [
+            10,
+            1494
+          ],
+          [
+            20,
+            1870
+          ],
+          [
+            30,
+            2282
+          ],
+          [
+            40,
+            2655
+          ],
+          [
+            50,
+            3024
+          ],
+          [
+            60,
+            3401
+          ],
+          [
+            90,
+            4186
+          ],
+          [
+            100,
+            4219
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/it8696e/control/4",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "CPU Optional Fan",
+        "NickName": "CPU Pump",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8696e/fan/4",
+          "IsHidden": false,
+          "Name": "CPU Optional Fan",
+          "NickName": "CPU Optional Fan"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "CPU Pump",
+          "Percent": 65.0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            226
+          ],
+          [
+            20,
+            380
+          ],
+          [
+            30,
+            547
+          ],
+          [
+            40,
+            748
+          ],
+          [
+            50,
+            908
+          ],
+          [
+            60,
+            1110
+          ],
+          [
+            70,
+            1303
+          ],
+          [
+            80,
+            1488
+          ],
+          [
+            100,
+            1603
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/it8696e/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 60,
+        "MinimumPercent": 0,
+        "Name": "System Fan #1",
+        "NickName": "Case Fans (Bottom) - PULL",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8696e/fan/1",
+          "IsHidden": false,
+          "Name": "System Fan #1",
+          "NickName": "System Fan #1"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "Case Fans",
+          "SelectedFanCurves": [
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "CPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "50,30.187555555555562",
+                "80,60.32088888888889"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "/amdcpu/0/temperature/2",
+                "IsHidden": false,
+                "Name": "Core (Tctl/Tdie)",
+                "NickName": "Core (Tctl/Tdie)"
+              }
+            },
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "GPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "60.17703003860761,30.187555555555562",
+                "79.8,60.05422222222222"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 15,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            257
+          ],
+          [
+            20,
+            428
+          ],
+          [
+            30,
+            621
+          ],
+          [
+            40,
+            849
+          ],
+          [
+            50,
+            1024
+          ],
+          [
+            60,
+            1235
+          ],
+          [
+            70,
+            1452
+          ],
+          [
+            80,
+            1686
+          ],
+          [
+            100,
+            1805
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/it8696e/control/2",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 60,
+        "MinimumPercent": 0,
+        "Name": "System Fan #2",
+        "NickName": "Case Fan (Rear-Bottom) PULL",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8696e/fan/2",
+          "IsHidden": false,
+          "Name": "System Fan #2",
+          "NickName": "System Fan #2"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "Case Fans",
+          "SelectedFanCurves": [
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "CPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "50,30.187555555555562",
+                "80,60.32088888888889"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "/amdcpu/0/temperature/2",
+                "IsHidden": false,
+                "Name": "Core (Tctl/Tdie)",
+                "NickName": "Core (Tctl/Tdie)"
+              }
+            },
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "GPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "60.17703003860761,30.187555555555562",
+                "79.8,60.05422222222222"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 15,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": [
+          [
+            0,
+            0
+          ],
+          [
+            10,
+            253
+          ],
+          [
+            20,
+            433
+          ],
+          [
+            30,
+            622
+          ],
+          [
+            40,
+            837
+          ],
+          [
+            50,
+            1027
+          ],
+          [
+            60,
+            1239
+          ],
+          [
+            70,
+            1458
+          ],
+          [
+            80,
+            1685
+          ],
+          [
+            100,
+            1776
+          ]
+        ],
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "/lpc/it8696e/control/3",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 60,
+        "MinimumPercent": 0,
+        "Name": "System Fan #3",
+        "NickName": "Case Fan (Rear-Top) PUSH",
+        "PairedFanSensor": {
+          "Identifier": "/lpc/it8696e/fan/3",
+          "IsHidden": false,
+          "Name": "System Fan #3",
+          "NickName": "System Fan #3"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": {
+          "CommandMode": 0,
+          "IsHidden": false,
+          "Name": "Case Fans",
+          "SelectedFanCurves": [
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "CPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "50,30.187555555555562",
+                "80,60.32088888888889"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "/amdcpu/0/temperature/2",
+                "IsHidden": false,
+                "Name": "Core (Tctl/Tdie)",
+                "NickName": "Core (Tctl/Tdie)"
+              }
+            },
+            {
+              "CommandMode": 0,
+              "IgnoreHysteresisAtLimits": true,
+              "IsHidden": false,
+              "MaximumCommand": 100,
+              "MaximumTemperature": 120.0,
+              "MinimumTemperature": 20.0,
+              "Name": "GPU --> Case",
+              "OneWayHysteresis": false,
+              "Points": [
+                "60.17703003860761,30.187555555555562",
+                "79.8,60.05422222222222"
+              ],
+              "SelectedHysteresis": 2.0,
+              "SelectedResponseTime": 1,
+              "SelectedTempSource": {
+                "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+                "IsHidden": false,
+                "Name": "GPU",
+                "NickName": "GPU"
+              }
+            }
+          ],
+          "SelectedMixFunction": 0
+        },
+        "SelectedOffset": 0,
+        "SelectedStart": 15,
+        "SelectedStop": 6
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-GA102-A/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "Control 1 - NVIDIA GeForce RTX 3080",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+          "IsHidden": false,
+          "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
+          "NickName": "Fan 1 - NVIDIA GeForce RTX 3080"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 55,
+        "SelectedStop": 46
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "NVApiWrapper/0-GA102-A/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 100,
+        "MinimumPercent": 0,
+        "Name": "Control 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "Control 2 - NVIDIA GeForce RTX 3080",
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+          "IsHidden": false,
+          "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
+          "NickName": "Fan 2 - NVIDIA GeForce RTX 3080"
+        },
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 58,
+        "SelectedStop": 46
+      }
+    ],
+    "CustomSensors": [],
+    "Fahrenheit": false,
+    "FanCurves": [
+      {
+        "CommandMode": 0,
+        "IsHidden": false,
+        "Name": "CPU Pump",
+        "Percent": 65.0
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "CPU Fans",
+        "OneWayHysteresis": false,
+        "Points": [
+          "60.020088515019296,20",
+          "75.08647477949715,50",
+          "85,100"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IsHidden": false,
+        "Name": "Case Fans",
+        "SelectedFanCurves": [
+          {
+            "CommandMode": 0,
+            "IgnoreHysteresisAtLimits": true,
+            "IsHidden": false,
+            "MaximumCommand": 100,
+            "MaximumTemperature": 120.0,
+            "MinimumTemperature": 20.0,
+            "Name": "CPU --> Case",
+            "OneWayHysteresis": false,
+            "Points": [
+              "50,30.187555555555562",
+              "80,60.32088888888889"
+            ],
+            "SelectedHysteresis": 2.0,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
+              "Identifier": "/amdcpu/0/temperature/2",
+              "IsHidden": false,
+              "Name": "Core (Tctl/Tdie)",
+              "NickName": "Core (Tctl/Tdie)"
+            }
+          },
+          {
+            "CommandMode": 0,
+            "IgnoreHysteresisAtLimits": true,
+            "IsHidden": false,
+            "MaximumCommand": 100,
+            "MaximumTemperature": 120.0,
+            "MinimumTemperature": 20.0,
+            "Name": "GPU --> Case",
+            "OneWayHysteresis": false,
+            "Points": [
+              "60.17703003860761,30.187555555555562",
+              "79.8,60.05422222222222"
+            ],
+            "SelectedHysteresis": 2.0,
+            "SelectedResponseTime": 1,
+            "SelectedTempSource": {
+              "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+              "IsHidden": false,
+              "Name": "GPU",
+              "NickName": "GPU"
+            }
+          }
+        ],
+        "SelectedMixFunction": 0
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "CPU --> Case",
+        "OneWayHysteresis": false,
+        "Points": [
+          "50,30.187555555555562",
+          "80,60.32088888888889"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2",
+          "IsHidden": false,
+          "Name": "Core (Tctl/Tdie)",
+          "NickName": "Core (Tctl/Tdie)"
+        }
+      },
+      {
+        "CommandMode": 0,
+        "IgnoreHysteresisAtLimits": true,
+        "IsHidden": false,
+        "MaximumCommand": 100,
+        "MaximumTemperature": 120.0,
+        "MinimumTemperature": 20.0,
+        "Name": "GPU --> Case",
+        "OneWayHysteresis": false,
+        "Points": [
+          "60.17703003860761,30.187555555555562",
+          "79.8,60.05422222222222"
+        ],
+        "SelectedHysteresis": 2.0,
+        "SelectedResponseTime": 1,
+        "SelectedTempSource": {
+          "Identifier": "NVApiWrapper/0-GA102-A/sensor/0",
+          "IsHidden": false,
+          "Name": "GPU",
+          "NickName": "GPU"
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/it8696e/fan/0",
+        "IsHidden": false,
+        "Name": "CPU Fan",
+        "NickName": "CPU Fan"
+      },
+      {
+        "Identifier": "/lpc/it8696e/fan/1",
+        "IsHidden": false,
+        "Name": "System Fan #1",
+        "NickName": "System Fan #1"
+      },
+      {
+        "Identifier": "/lpc/it8696e/fan/2",
+        "IsHidden": false,
+        "Name": "System Fan #2",
+        "NickName": "System Fan #2"
+      },
+      {
+        "Identifier": "/lpc/it8696e/fan/3",
+        "IsHidden": false,
+        "Name": "System Fan #3",
+        "NickName": "System Fan #3"
+      },
+      {
+        "Identifier": "/lpc/it8696e/fan/4",
+        "IsHidden": false,
+        "Name": "CPU Optional Fan",
+        "NickName": "CPU Optional Fan"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/0",
+        "IsHidden": false,
+        "Name": "Fan 1 - NVIDIA GeForce RTX 3080",
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 3080"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GA102-A/fan/1",
+        "IsHidden": false,
+        "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 3080"
+      }
+    ],
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFC6FF00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": true,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TemperatureSensors": [],
+    "TrayIconColor": null,
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": true,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "InpOut": false,
+      "Memory": false,
+      "Motherboard": true,
+      "PSU": true,
+      "Storage": false,
+      "ZeroRPMOverride": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": false
+    },
+    "SensorCount": 22
+  }
+}
