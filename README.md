@@ -86,6 +86,12 @@ The layouts were created using [Microsoft Keyboard Layout Creator](https://msklc
 
 The layout can then be added to the language options in the Windows settings.
 
+## Fan control config
+
+This repository contains a config file for [Fan Control](https://getfancontrol.com/). The main reason for using it over setting up the fan curve in BIOS is to be able to use the `mix` function which Fan Control provides. This enables me to base the curve for my case fans to either the CPU or the GPU sensors, whichever is higher. 
+
+To set up the profile, it's easiest to simply load the `config.json` inside the program using the path to this repo. That way, if the config is updated, we can directly do a commit to version the change.
+
 ## TODO
 * Make the scheduled task script not flash a command line window to the user when it runs. This can be done by wrapping it in a `cmd` call. See: https://stackoverflow.com/a/67300159
 * Make the scheduled task produce a log file. This has kind of worked before, also using `cmd`. See: https://superuser.com/a/1622540
