@@ -92,6 +92,26 @@ This repository contains a config file for [Fan Control](https://getfancontrol.c
 
 To set up the profile, it's easiest to simply load the `config.json` inside the program using the path to this repo. That way, if the config is updated, we can directly do a commit to version the change.
 
+## Debloat
+
+This repository contains a `CustomAppsList` file for using with [Win11Debloat](https://github.com/Raphire/Win11Debloat). To run the debload script:
+
+``` powershell
+cd C:\Projects\dots-windows\win11_debloat
+git clone https://github.com/Raphire/Win11Debloat.git
+cp .\CustomAppsList .\Win11Debloat\
+.\Win11Debloat\Win11Debloat.ps1 `
+    -DisableTelemetry `
+    -DisableBing `
+    -DisableSuggestions `
+    -ShowHiddenFolders `
+    -ShowKnownFileExt `
+    -DisableCopilot `
+    -DisableRecall `
+    -ExplorerToThisPC `
+    -RemoveAppsCustom
+```
+
 ## TODO
 * Make the scheduled task script not flash a command line window to the user when it runs. This can be done by wrapping it in a `cmd` call. See: https://stackoverflow.com/a/67300159
 * Make the scheduled task produce a log file. This has kind of worked before, also using `cmd`. See: https://superuser.com/a/1622540
