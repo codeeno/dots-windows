@@ -256,7 +256,7 @@
               "Name": "GPU --> Case",
               "OneWayHysteresis": false,
               "Points": [
-                "60.17703003860761,30.187555555555562",
+                "65,29.920888888888882",
                 "79.8,60.05422222222222"
               ],
               "SelectedHysteresis": 2.0,
@@ -372,7 +372,7 @@
               "Name": "GPU --> Case",
               "OneWayHysteresis": false,
               "Points": [
-                "60.17703003860761,30.187555555555562",
+                "65,29.920888888888882",
                 "79.8,60.05422222222222"
               ],
               "SelectedHysteresis": 2.0,
@@ -488,7 +488,7 @@
               "Name": "GPU --> Case",
               "OneWayHysteresis": false,
               "Points": [
-                "60.17703003860761,30.187555555555562",
+                "65,29.920888888888882",
                 "79.8,60.05422222222222"
               ],
               "SelectedHysteresis": 2.0,
@@ -554,6 +554,63 @@
         "SelectedOffset": 0,
         "SelectedStart": 58,
         "SelectedStop": 46
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/it87952e/control/0",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #5 / Pump",
+        "NickName": "System Fan #5 / Pump",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/it87952e/control/1",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #6 / Pump",
+        "NickName": "System Fan #6 / Pump",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": false,
+        "ForceApply": false,
+        "Identifier": "/lpc/it87952e/control/2",
+        "IsHidden": false,
+        "ManualControl": false,
+        "ManualControlValue": 50,
+        "MinimumPercent": 0,
+        "Name": "System Fan #4",
+        "NickName": "System Fan #4",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
       }
     ],
     "CustomSensors": [],
@@ -625,7 +682,7 @@
             "Name": "GPU --> Case",
             "OneWayHysteresis": false,
             "Points": [
-              "60.17703003860761,30.187555555555562",
+              "65,29.920888888888882",
               "79.8,60.05422222222222"
             ],
             "SelectedHysteresis": 2.0,
@@ -672,7 +729,7 @@
         "Name": "GPU --> Case",
         "OneWayHysteresis": false,
         "Points": [
-          "60.17703003860761,30.187555555555562",
+          "65,29.920888888888882",
           "79.8,60.05422222222222"
         ],
         "SelectedHysteresis": 2.0,
@@ -727,6 +784,24 @@
         "IsHidden": false,
         "Name": "Fan 2 - NVIDIA GeForce RTX 3080",
         "NickName": "Fan 2 - NVIDIA GeForce RTX 3080"
+      },
+      {
+        "Identifier": "/lpc/it87952e/fan/0",
+        "IsHidden": false,
+        "Name": "System Fan #5 / Pump",
+        "NickName": "System Fan #5 / Pump"
+      },
+      {
+        "Identifier": "/lpc/it87952e/fan/1",
+        "IsHidden": false,
+        "Name": "System Fan #6 / Pump",
+        "NickName": "System Fan #6 / Pump"
+      },
+      {
+        "Identifier": "/lpc/it87952e/fan/2",
+        "IsHidden": false,
+        "Name": "System Fan #4 ",
+        "NickName": "System Fan #4 "
       }
     ],
     "HideCalibration": false,
@@ -764,6 +839,6 @@
       "Enabled": true,
       "ZeroRPMOverride": false
     },
-    "SensorCount": 22
+    "SensorCount": 30
   }
 }
