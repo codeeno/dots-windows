@@ -94,7 +94,7 @@ To set up the profile, it's easiest to simply load the `config.json` inside the 
 
 ## Debloat
 
-This repository contains a `CustomAppsList` file for using with [Win11Debloat](https://github.com/Raphire/Win11Debloat). To run the debload script:
+This repository contains a `CustomAppsList` file for using with [Win11Debloat](https://github.com/Raphire/Win11Debloat). To run the debload script with some sane settings:
 
 ``` powershell
 cd C:\Projects\dots-windows\win11_debloat
