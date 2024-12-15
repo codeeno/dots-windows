@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-11T03:00:07.524-00:00",
+	"CreationDate" : "2024-12-15T11:25:52.210-00:00",
 	"Sources" : 
 	[
 		{
@@ -14,6 +14,9 @@
 				},
 				{
 					"PackageIdentifier" : "Ryochan7.DS4Windows"
+				},
+				{
+					"PackageIdentifier" : "GIGABYTE.GigabyteControlCenter"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
@@ -121,6 +124,9 @@
 					"PackageIdentifier" : "Bitwarden.Bitwarden"
 				},
 				{
+					"PackageIdentifier" : "undergroundwires.privacy.sexy"
+				},
+				{
 					"PackageIdentifier" : "beeradmoore.dlss-swapper"
 				},
 				{
@@ -130,9 +136,6 @@
 					"PackageIdentifier" : "Maxon.CinebenchR23"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
 					"PackageIdentifier" : "Playnite.Playnite"
 				},
 				{
@@ -140,9 +143,6 @@
 				},
 				{
 					"PackageIdentifier" : "Syncthing.Syncthing"
-				},
-				{
-					"PackageIdentifier" : "WhirlwindFX.SignalRgb"
 				},
 				{
 					"PackageIdentifier" : "Balena.Etcher"
