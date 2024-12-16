@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-15T11:25:52.210-00:00",
+	"CreationDate" : "2024-12-16T11:05:17.688-00:00",
 	"Sources" : 
 	[
 		{
@@ -143,6 +143,9 @@
 				},
 				{
 					"PackageIdentifier" : "Syncthing.Syncthing"
+				},
+				{
+					"PackageIdentifier" : "WhirlwindFX.SignalRgb"
 				},
 				{
 					"PackageIdentifier" : "Balena.Etcher"
