@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-16T11:05:17.688-00:00",
+	"CreationDate" : "2024-12-20T10:32:23.277-00:00",
 	"Sources" : 
 	[
 		{
@@ -23,6 +23,9 @@
 				},
 				{
 					"PackageIdentifier" : "REALiX.HWiNFO"
+				},
+				{
+					"PackageIdentifier" : "Resplendence.LatencyMon"
 				},
 				{
 					"PackageIdentifier" : "Mozilla.Firefox"
@@ -110,6 +113,9 @@
 				},
 				{
 					"PackageIdentifier" : "EpicGames.EpicGamesLauncher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.XNARedist"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2010.x86"
