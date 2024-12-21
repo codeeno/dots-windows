@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2024-12-20T10:32:23.277-00:00",
+	"CreationDate" : "2024-12-21T10:28:02.675-00:00",
 	"Sources" : 
 	[
 		{
@@ -8,6 +8,9 @@
 			[
 				{
 					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "CloudImperiumGames.RSILauncher"
 				},
 				{
 					"PackageIdentifier" : "CPUID.CPU-Z.AORUS"
